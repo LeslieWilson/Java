@@ -1,3 +1,5 @@
+// https://www.google.com/search?ei=2r-hWv6IHMPZ5gL94KioDg&q=make+a+game+in+java&oq=make+a+game+in+java&gs_l=psy-ab.3..0l4j0i22i30k1l6.173793.177756.0.177932.19.16.0.2.2.0.137.1439.11j5.16.0....0...1c.1.64.psy-ab..1.18.1442...46j0i67k1j0i131k1j0i46k1j0i131i67k1j0i10k1.0.QyUxUsoM0T0#kpvalbx=1   this is part 2... 
+
 package com.tutorial.main;
 
 public class Game extends Canvas implements Runnable{
@@ -77,7 +79,7 @@ public Game(){
         Graphics  g = bs.getDrawGraphics();
 
         g.setColor(Color.black);
-        g.fillRect(0,0,WIDTH,HEIGHT);
+        g.fillRect(0, 0, WIDTH, HEIGHT);
 
         g.dispose();
         bs.show();
